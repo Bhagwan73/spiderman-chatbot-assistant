@@ -4,7 +4,6 @@ require('dotenv').config({path:"./.env"});
 exports.chatbot = async (req, res) => {
     try {   
         const { chat } = req.body 
-        console.log(chat)
         const result = await openai.createChatCompletion({
             model: "gpt-3.5-turbo",
             messages: [     
