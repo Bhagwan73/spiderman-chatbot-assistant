@@ -1,9 +1,8 @@
 
 const TextToSpeech=async function(question){    
     try {
-      console.log(process.env.REACT_APP_BACKEND_URL,"how adjsfjkhdkjfhjk")
-        const response = await fetch(process.env.REACT_APP_BACKEND_URL, {
-          method: 'POST',
+        const response = await fetch(`${process.env.REACT_APP_SERVER_URL}/chat`, {
+          method: 'POST',  
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             chat: [{ role: 'user', content: question }],
