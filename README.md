@@ -13,7 +13,7 @@ Welcome to the Spiderman Chatbot Assistant project! This project features a chat
 
 To get started with the Spiderman Chatbot Assistant, follow these steps:
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: ```git clone  https://github.com/Bhagwan73/spiderman-chatbot-assistant.git ```
 2. Install the dependencies: `npm install`
 3. Start the backend server:
    - Navigate to the backend directory: `cd server`
